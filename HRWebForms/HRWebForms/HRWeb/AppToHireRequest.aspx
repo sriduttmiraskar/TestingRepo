@@ -48,10 +48,10 @@
                             <div class="control-group">
                                 <asp:Label ID="lblAppToHireRequest" runat="server"></asp:Label>
                                 <label id="lblDate" class="control-label">Date: </label>
-                                <div class="controls" style="margin-top:5px;">
-                                    <!--<SharePoint:DateTimeControl runat="server" UseTimeZoneAdjustment="false" LocaleId="2057" ID="DateofRequest" DateOnly="true" CssClassTextBox="border-radius-none span12" />-->
+                                <!--<div class="controls" style="margin-top:5px;">
+                                    <SharePoint:DateTimeControl runat="server" UseTimeZoneAdjustment="false" LocaleId="2057" ID="DateofRequest" DateOnly="true" CssClassTextBox="border-radius-none span12" />
                                     <asp:Label ID="lblDateNow" runat="server"></asp:Label>
-                                </div>
+                                </div>-->
                             </div>
                             <div class="control-group">
                                 <label id="lblPositionType" class="control-label">Position Type <span style="color: red">*</span></label>
