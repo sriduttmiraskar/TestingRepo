@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" AutoActivateInCentralAdmin="TRUE" Id="6adfcd94-a4b3-4c2e-8247-e10e5cf2eb5a" ReceiverAssembly="HRWebForms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c8c0e2f713937cc8" ReceiverClass="HRWebForms.Features.ConfigMod.ConfigModEventReceiver" Scope="WebApplication" Title="HRWebForms Feature2"></Feature>

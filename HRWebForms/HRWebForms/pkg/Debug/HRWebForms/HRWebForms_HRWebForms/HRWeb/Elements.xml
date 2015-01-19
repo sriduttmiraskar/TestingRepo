@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="HRWeb" Url="Pages">
+<File Path="HRWeb\TerminationRequest.aspx" Url="HRWeb/TerminationRequest.aspx" Type="GhostableInLibrary" />-->
+<File Path="HRWeb\AppToHireWorkflowApproval.aspx" Url="HRWeb/AppToHireWorkflowApproval.aspx" />
+<File Path="HRWeb\AppToHireReview.aspx" Url="HRWeb/AppToHireReview.aspx" />
+<File Path="HRWeb\AppToHireRequest.aspx" Url="HRWeb/AppToHireRequest.aspx" />
+<File Path="HRWeb\ApptoHireStatus.aspx" Url="HRWeb/ApptoHireStatus.aspx" />
+<File Path="HRWeb\TravelRequest.aspx" Url="HRWeb/TravelRequest.aspx" />
+<File Path="HRWeb\TerminationWorkflowApproval.aspx" Url="HRWeb/TerminationWorkflowApproval.aspx" />
+<File Path="HRWeb\TerminationStatus.aspx" Url="HRWeb/TerminationStatus.aspx" />
+<File Path="HRWeb\TerminationReview.aspx" Url="HRWeb/TerminationReview.aspx" />
+<File Path="HRWeb\TravelReview.aspx" Url="HRWeb/TravelReview.aspx" />
+<File Path="HRWeb\TravelWorkflowApproval.aspx" Url="HRWeb/TravelWorkflowApproval.aspx" />
+<File Path="HRWeb\TravelStatus.aspx" Url="HRWeb/TravelStatus.aspx" />
+<File Path="HRWeb\NewHireRequest.aspx" Url="HRWeb/NewHireRequest.aspx" />
+<File Path="HRWeb\NewHireStatus.aspx" Url="HRWeb/NewHireStatus.aspx" />
+<File Path="HRWeb\NewHireReview.aspx" Url="HRWeb/NewHireReview.aspx" />
+<File Path="HRWeb\NewHireWorkflowApproval.aspx" Url="HRWeb/NewHireWorkflowApproval.aspx" />
+</Module>
+</Elements>

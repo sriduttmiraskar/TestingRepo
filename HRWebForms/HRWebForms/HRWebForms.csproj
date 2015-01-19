@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9D38F6D2-DBC2-49CE-B87D-042BA5E67D2A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HRWebForms</RootNamespace>
+    <AssemblyName>HRWebForms</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp, Version=5.5.0.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Bharath\ITextsharp\itextsharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Taxonomy, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.Taxonomy.Intl, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlTemplates\HRWebForms\UploadJobUserControl.ascx.cs">
+      <DependentUpon>UploadJobUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\HRWebForms\UploadJobUserControl.ascx.designer.cs">
+      <DependentUpon>UploadJobUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\ConfigMod\ConfigMod.EventReceiver.cs">
+      <DependentUpon>ConfigMod.feature</DependentUpon>
+    </Compile>
+    <Compile Include="HRWeb\AppToHireRequest.aspx.cs">
+      <DependentUpon>AppToHireRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRWeb\AppToHireRequest.aspx.designer.cs">
+      <DependentUpon>AppToHireRequest.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HRWeb\AppToHireWorkflowApproval.aspx.cs">
+      <DependentUpon>AppToHireWorkflowApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRWeb\AppToHireWorkflowApproval.aspx.designer.cs">
+      <DependentUpon>AppToHireWorkflowApproval.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HRWeb\AppToHireReview.aspx.cs">
+      <DependentUpon>AppToHireReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRWeb\AppToHireReview.aspx.designer.cs">
+      <DependentUpon>AppToHireReview.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HRWeb\ApptoHireStatus.aspx.cs">
+      <DependentUpon>ApptoHireStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRWeb\ApptoHireStatus.aspx.designer.cs">
+      <DependentUpon>ApptoHireStatus.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HRWeb\NewHireWorkflowApproval.aspx.cs">
+      <DependentUpon>NewHireWorkflowApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRWeb\NewHireWorkflowApproval.aspx.designer.cs">
+      <DependentUpon>NewHireWorkflowApproval.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HRWeb\NewHireReview.aspx.cs">
+      <DependentUpon>NewHireReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRWeb\NewHireReview.aspx.designer.cs">
+      <DependentUpon>NewHireReview.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HRWeb\NewHireStatus.aspx.cs">
+      <DependentUpon>NewHireStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRWeb\NewHireStatus.aspx.designer.cs">
+      <DependentUpon>NewHireStatus.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HRWeb\NewHireRequest.aspx.cs">
+      <DependentUpon>NewHireRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRWeb\NewHireRequest.aspx.designer.cs">
+      <DependentUpon>NewHireRequest.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HRWeb\TravelStatus.aspx.cs">
+      <DependentUpon>TravelStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRWeb\TravelStatus.aspx.designer.cs">
+      <DependentUpon>TravelStatus.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HRWeb\TravelWorkflowApproval.aspx.cs">
+      <DependentUpon>TravelWorkflowApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRWeb\TravelWorkflowApproval.aspx.designer.cs">
+      <DependentUpon>TravelWorkflowApproval.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HRWeb\TravelReview.aspx.cs">
+      <DependentUpon>TravelReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRWeb\TravelReview.aspx.designer.cs">
+      <DependentUpon>TravelReview.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HRWeb\TerminationReview.aspx.cs">
+      <DependentUpon>TerminationReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRWeb\TerminationReview.aspx.designer.cs">
+      <DependentUpon>TerminationReview.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HRWeb\TerminationStatus.aspx.cs">
+      <DependentUpon>TerminationStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRWeb\TerminationStatus.aspx.designer.cs">
+      <DependentUpon>TerminationStatus.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HRWeb\TerminationWorkflowApproval.aspx.cs">
+      <DependentUpon>TerminationWorkflowApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRWeb\TerminationWorkflowApproval.aspx.designer.cs">
+      <DependentUpon>TerminationWorkflowApproval.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HRWeb\HrWebUtility.cs" />
+    <Compile Include="HRWeb\TravelRequest.aspx.cs">
+      <DependentUpon>TravelRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRWeb\TravelRequest.aspx.designer.cs">
+      <DependentUpon>TravelRequest.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HRWeb\TerminationRequest.aspx.cs">
+      <DependentUpon>TerminationRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HRWeb\TerminationRequest.aspx.designer.cs">
+      <DependentUpon>TerminationRequest.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogUtility.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ControlTemplates\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{385b4637-54d2-4460-9228-bc2e23d4c22e}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\HRWebForms\HRWebForms.feature">
+      <FeatureId>{939375e9-26dd-426c-bb29-074b7608ecf5}</FeatureId>
+    </None>
+    <None Include="Features\ConfigMod\ConfigMod.feature">
+      <FeatureId>{d4bc0602-a8c1-4a4d-ac47-51488e1be993}</FeatureId>
+    </None>
+    <None Include="HRWeb\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a0ebe11f-56e7-4c58-b3b5-af85a514ff1f}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Package\Package.package">
+      <PackageId>{13c4ed13-b3b0-4401-8091-804010cc0afd}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="HRWeb\AppToHireRequest.aspx" />
+    <Content Include="HRWeb\AppToHireWorkflowApproval.aspx" />
+    <Content Include="ControlTemplates\HRWebForms\UploadJobUserControl.ascx" />
+    <Content Include="Features\HRWebForms\HRWebForms.Template.xml">
+      <DependentUpon>HRWebForms.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\ConfigMod\ConfigMod.Template.xml">
+      <DependentUpon>ConfigMod.feature</DependentUpon>
+    </Content>
+    <Content Include="HRWeb\AppToHireReview.aspx" />
+    <Content Include="HRWeb\ApptoHireStatus.aspx" />
+    <Content Include="HRWeb\NewHireWorkflowApproval.aspx" />
+    <Content Include="HRWeb\NewHireReview.aspx" />
+    <Content Include="HRWeb\NewHireStatus.aspx" />
+    <Content Include="HRWeb\NewHireRequest.aspx" />
+    <Content Include="HRWeb\TravelStatus.aspx" />
+    <Content Include="HRWeb\TravelWorkflowApproval.aspx" />
+    <Content Include="HRWeb\TravelReview.aspx" />
+    <Content Include="HRWeb\TerminationReview.aspx" />
+    <Content Include="HRWeb\TerminationStatus.aspx" />
+    <Content Include="HRWeb\TerminationWorkflowApproval.aspx" />
+    <Content Include="HRWeb\TravelRequest.aspx" />
+    <Content Include="HRWeb\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="HRWeb\TerminationRequest.aspx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

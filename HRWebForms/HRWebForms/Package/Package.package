@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="13c4ed13-b3b0-4401-8091-804010cc0afd" solutionId="13c4ed13-b3b0-4401-8091-804010cc0afd" resetWebServer="false" name="HRWebForms" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <customAssembly location="itextsharp.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="bin\Debug\itextsharp.dll" />
+  </assemblies>
+  <features>
+    <featureReference itemId="939375e9-26dd-426c-bb29-074b7608ecf5" />
+    <featureReference itemId="d4bc0602-a8c1-4a4d-ac47-51488e1be993" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="385b4637-54d2-4460-9228-bc2e23d4c22e" />
+  </projectItems>
+</package>

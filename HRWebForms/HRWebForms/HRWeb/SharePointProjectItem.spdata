@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="HRWeb\" Type="ElementManifest" />
+    <ProjectItemFile Source="TerminationRequest.aspx" Target="HRWeb\" Type="ElementFile" />
+    <ProjectItemFile Source="AppToHireWorkflowApproval.aspx" Target="HRWeb\" Type="ElementFile" />
+    <ProjectItemFile Source="AppToHireReview.aspx" Target="HRWeb\" Type="ElementFile" />
+    <ProjectItemFile Source="AppToHireRequest.aspx" Target="HRWeb\" Type="ElementFile" />
+    <ProjectItemFile Source="ApptoHireStatus.aspx" Target="HRWeb\" Type="ElementFile" />
+    <ProjectItemFile Source="TravelRequest.aspx" Target="HRWeb\" Type="ElementFile" />
+    <ProjectItemFile Source="TerminationWorkflowApproval.aspx" Target="HRWeb\" Type="ElementFile" />
+    <ProjectItemFile Source="TerminationStatus.aspx" Target="HRWeb\" Type="ElementFile" />
+    <ProjectItemFile Source="TerminationReview.aspx" Target="HRWeb\" Type="ElementFile" />
+    <ProjectItemFile Source="TravelReview.aspx" Target="HRWeb\" Type="ElementFile" />
+    <ProjectItemFile Source="TravelWorkflowApproval.aspx" Target="HRWeb\" Type="ElementFile" />
+    <ProjectItemFile Source="TravelStatus.aspx" Target="HRWeb\" Type="ElementFile" />
+    <ProjectItemFile Source="NewHireRequest.aspx" Target="HRWeb\" Type="ElementFile" />
+    <ProjectItemFile Source="NewHireStatus.aspx" Target="HRWeb\" Type="ElementFile" />
+    <ProjectItemFile Source="NewHireReview.aspx" Target="HRWeb\" Type="ElementFile" />
+    <ProjectItemFile Source="NewHireWorkflowApproval.aspx" Target="HRWeb\" Type="ElementFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="HRWebForms.HRWeb" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

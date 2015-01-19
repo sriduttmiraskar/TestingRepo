@@ -1,0 +1,15 @@
+C:\Users\rkola\Documents\Visual Studio 2012\Projects\HRWebForms\HRWebForms\obj\Debug\HRWebForms.csprojResolveAssemblyReference.cache
+C:\Users\rkola\Documents\Visual Studio 2012\Projects\HRWebForms\HRWebForms\obj\Debug\HRWebForms.dll
+C:\Users\rkola\Documents\Visual Studio 2012\Projects\HRWebForms\HRWebForms\obj\Debug\HRWebForms.pdb
+E:\RKOLA\HRWebForms\HRWebForms\bin\Debug\HRWebForms.dll
+E:\RKOLA\HRWebForms\HRWebForms\bin\Debug\HRWebForms.pdb
+E:\RKOLA\HRWebForms\HRWebForms\bin\Debug\itextsharp.dll
+E:\RKOLA\HRWebForms\HRWebForms\obj\Debug\HRWebForms.dll
+E:\RKOLA\HRWebForms\HRWebForms\obj\Debug\HRWebForms.pdb
+E:\RKOLA\HRWebForms\HRWebForms\obj\Debug\HRWebForms.csprojResolveAssemblyReference.cache
+E:\HR_Sri\HRWebForms\HRWebForms\bin\Debug\HRWebForms.dll
+E:\HR_Sri\HRWebForms\HRWebForms\bin\Debug\HRWebForms.pdb
+E:\HR_Sri\HRWebForms\HRWebForms\bin\Debug\itextsharp.dll
+E:\HR_Sri\HRWebForms\HRWebForms\obj\Debug\HRWebForms.dll
+E:\HR_Sri\HRWebForms\HRWebForms\obj\Debug\HRWebForms.pdb
+E:\HR_Sri\HRWebForms\HRWebForms\obj\Debug\HRWebForms.csprojResolveAssemblyReference.cache

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" AutoActivateInCentralAdmin="TRUE" Id="49740894-82f3-45c4-b002-5d2825427f2b" Scope="Site" Title="HRWebForms">
+  <ElementManifests>
+    <ElementManifest Location="HRWeb\Elements.xml" />
+    <ElementFile Location="HRWeb\TerminationRequest.aspx" />
+    <ElementFile Location="HRWeb\AppToHireWorkflowApproval.aspx" />
+    <ElementFile Location="HRWeb\AppToHireReview.aspx" />
+    <ElementFile Location="HRWeb\AppToHireRequest.aspx" />
+    <ElementFile Location="HRWeb\ApptoHireStatus.aspx" />
+    <ElementFile Location="HRWeb\TravelRequest.aspx" />
+    <ElementFile Location="HRWeb\TerminationWorkflowApproval.aspx" />
+    <ElementFile Location="HRWeb\TerminationStatus.aspx" />
+    <ElementFile Location="HRWeb\TerminationReview.aspx" />
+    <ElementFile Location="HRWeb\TravelReview.aspx" />
+    <ElementFile Location="HRWeb\TravelWorkflowApproval.aspx" />
+    <ElementFile Location="HRWeb\TravelStatus.aspx" />
+    <ElementFile Location="HRWeb\NewHireRequest.aspx" />
+    <ElementFile Location="HRWeb\NewHireStatus.aspx" />
+    <ElementFile Location="HRWeb\NewHireReview.aspx" />
+    <ElementFile Location="HRWeb\NewHireWorkflowApproval.aspx" />
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="13c4ed13-b3b0-4401-8091-804010cc0afd" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="itextsharp.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="HRWebForms.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="HRWebForms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c8c0e2f713937cc8" Namespace="HRWebForms.HRWeb" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="ControlTemplates\HRWebForms\UploadJobUserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="HRWebForms_HRWebForms\Feature.xml" />
+    <FeatureManifest Location="HRWebForms_ConfigMod\Feature.xml" />
+  </FeatureManifests>
+</Solution>
